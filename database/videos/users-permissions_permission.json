@@ -1,0 +1,3150 @@
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b9"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b8"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b7"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "models", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ba"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6bb"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6be"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "delete", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6bc"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6bd"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "updatesettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c3"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "createmodel", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c1"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodel", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c8"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "send", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c2"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getconnections", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c6"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6cd"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "environments", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c7"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "checktableexists", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c0"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodels", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6bf"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "deleteall", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6cb"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "updatesettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d2"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "get", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6cc"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "menu", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c5"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "deletemodel", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c4"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "updatemodel", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d0"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "database", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d7"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "updatedatabase", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d1"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databasemodel", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ca"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getsettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6c9"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getenvironments", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d5"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletelanguage", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6dc"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getsettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d6"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createdatabase", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6cf"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databases", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ce"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "languages", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6da"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "upload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e1"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6db"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getenvironments", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d4"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createlanguage", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d3"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6df"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e6"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "forgotpassword", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e0"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d9"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e4"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "changepassword", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6d8"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletedatabase", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6eb"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e5"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "connect", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6de"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e9"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6dd"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "updatesettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f0"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "createrole", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ea"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "me", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e3"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "callback", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ee"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e2"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "search", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f5"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getrole", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ef"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroyall", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e8"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "emailconfirmation", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f3"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpermissions", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6e7"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "register", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6fa"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "searchusers", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ec"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f4"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpolicies", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ed"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f8"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "index", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6ff"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateadvancedsettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f1"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleteprovider", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f9"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "init", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f2"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleterole", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6fd"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateemailtemplate", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b704"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f6"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroles", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6fe"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getadvancedsettings", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6f7"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroutes", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b702"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "models", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b709"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "delete", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6fb"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updaterole", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b703"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6fc"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getemailtemplate", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b707"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70e"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "createmodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b700"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getproviders", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b708"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b701"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateproviders", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70c"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b713"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "send", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b705"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70d"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getconnections", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b706"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b711"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b718"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "environments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70a"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "deleteall", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b712"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "checktableexists", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70b"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodels", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b716"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71d"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "get", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b70f"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "updatemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b717"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "menu", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b710"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "deletemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71b"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "database", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71c"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databasemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b722"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "updatedatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b714"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getenvironments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b715"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b720"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletelanguage", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b721"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createdatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b727"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b719"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "languages", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71a"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databases", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b725"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "upload", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b726"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getenvironments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72c"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71e"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b71f"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createlanguage", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72a"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72b"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b731"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "forgotpassword", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b723"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletedatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b724"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72f"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "changepassword", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b730"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "connect", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b736"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b728"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b729"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b734"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b735"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "me", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72d"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "search", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73b"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "createrole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b72e"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "callback", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b739"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73a"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroyall", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b732"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "register", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b740"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getrole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b733"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "emailconfirmation", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73e"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpermissions", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b737"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73f"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpolicies", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b745"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "searchusers", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b738"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b743"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "index", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b744"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "init", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74a"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateadvancedsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73c"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleteprovider", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b73d"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleterole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b749"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getadvancedsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b748"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateemailtemplate", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74f"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b741"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroles", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b742"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroutes", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74e"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74d"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "models", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b754"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "delete", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b746"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updaterole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b753"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b747"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getemailtemplate", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b752"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b759"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "createmodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74b"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getproviders", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b758"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getconnections", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b74c"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateproviders", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b757"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75e"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "send", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b750"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75d"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "checktableexists", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b751"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75c"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b763"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "environments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b755"), 
+    "type" : "content-manager", 
+    "controller" : "contentmanager", 
+    "action" : "deleteall", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b762"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "menu", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b756"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "getmodels", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b761"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b768"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "get", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75a"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "updatemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b767"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databasemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75b"), 
+    "type" : "content-type-builder", 
+    "controller" : "contenttypebuilder", 
+    "action" : "deletemodel", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b766"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "database", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76d"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "updatedatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b75f"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getenvironments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76c"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createdatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b760"), 
+    "type" : "email", 
+    "controller" : "email", 
+    "action" : "getsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76b"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletelanguage", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b772"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b764"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "languages", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b771"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "getenvironments", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b765"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "databases", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b777"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b770"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "upload", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b769"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b776"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76a"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "createlanguage", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77c"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "forgotpassword", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b775"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76e"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "deletedatabase", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77b"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "connect", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b76f"), 
+    "type" : "settings-manager", 
+    "controller" : "settingsmanager", 
+    "action" : "autoreload", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b781"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77a"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "changepassword", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b773"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "updatesettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b780"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "me", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b774"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b786"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "createrole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77f"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b778"), 
+    "type" : "upload", 
+    "controller" : "upload", 
+    "action" : "search", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b785"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroyall", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b779"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "callback", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78b"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getrole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b784"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77d"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "register", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78a"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpolicies", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b77e"), 
+    "type" : "users-permissions", 
+    "controller" : "auth", 
+    "action" : "emailconfirmation", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b790"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "searchusers", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b789"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getpermissions", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b782"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78f"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "init", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b783"), 
+    "type" : "users-permissions", 
+    "controller" : "user", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b795"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateadvancedsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78e"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "index", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b787"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleteprovider", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b794"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getadvancedsettings", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b788"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "deleterole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b793"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateemailtemplate", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78c"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroles", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b78d"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getroutes", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b791"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updaterole", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b796"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getproviders", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b792"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "getemailtemplate", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b797"), 
+    "type" : "users-permissions", 
+    "controller" : "userspermissions", 
+    "action" : "updateproviders", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafde"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafdd"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafdf"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe0"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe1"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe2"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe3"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe4"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe5"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe6"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafea"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe9"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe8"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafe7"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafeb"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafee"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafed"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f9d6254001404201eafec"), 
+    "type" : "application", 
+    "controller" : "categories", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42de"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42df"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e0"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e1"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e2"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e3"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e4"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e5"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e6"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e7"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42ea"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e8"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42eb"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42e9"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42ec"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42ed"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42ef"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c106f9454400115e81c42ee"), 
+    "type" : "application", 
+    "controller" : "countries", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8970"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8972"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8971"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8973"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8974"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8975"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8976"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8977"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8978"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897d"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897b"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897c"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8979"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897a"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8980"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a8981"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897e"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c1070983c36262cec2a897f"), 
+    "type" : "application", 
+    "controller" : "actor", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e200"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e203"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e202"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e201"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e205"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e208"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e207"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e1ff"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e206"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20a"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20c"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20d"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20b"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e204"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20f"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e210"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e209"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f0a857811a233c55e20e"), 
+    "type" : "application", 
+    "controller" : "formality", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55512"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "find", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55516"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "update", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55513"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "findone", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55517"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "destroy", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55515"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "create", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551b"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55514"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "count", 
+    "enabled" : true, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55518"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551c"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551a"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55520"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "count", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55519"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551d"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55521"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "create", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551f"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "findone", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b5551e"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "find", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55522"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "update", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c10f21b811c5d09d0b55523"), 
+    "type" : "application", 
+    "controller" : "videos", 
+    "action" : "destroy", 
+    "enabled" : false, 
+    "policy" : "", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "__v" : NumberInt(0)
+}

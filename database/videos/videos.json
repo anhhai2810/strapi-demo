@@ -1,0 +1,44 @@
+{ 
+    "_id" : ObjectId("5c10f7623da4f82e24aa125c"), 
+    "name" : "phuc dat", 
+    "lead" : "phuc dat", 
+    "links" : {
+
+    }, 
+    "status" : NumberInt(0), 
+    "createdAt" : ISODate("2018-12-12T11:56:18.334+0000"), 
+    "updatedAt" : ISODate("2018-12-12T16:58:18.657+0000"), 
+    "publishAt" : null, 
+    "IMDb" : NumberInt(5), 
+    "dao_dien" : "", 
+    "ngay_phat_hanh" : null, 
+    "ngay_ra_rap" : null, 
+    "thoi_luong" : NumberInt(0), 
+    "chat_luong" : "", 
+    "do_phan_giai" : "", 
+    "ngon_ngu" : "", 
+    "cty_sx" : "", 
+    "total_view" : NumberInt(0), 
+    "rating" : NumberInt(0), 
+    "trailer_link" : "", 
+    "tags" : [
+
+    ], 
+    "total_comment" : null, 
+    "name2" : "", 
+    "hang_sx" : "", 
+    "categories" : [
+
+    ], 
+    "actors" : [
+
+    ], 
+    "countries" : [
+
+    ], 
+    "formalities" : [
+
+    ], 
+    "__v" : NumberInt(0), 
+    "id" : "5c10f7623da4f82e24aa125c"
+}

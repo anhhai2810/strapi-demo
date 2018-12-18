@@ -1,0 +1,44 @@
+{ 
+    "_id" : ObjectId("5c10f10c8d9e6223ace22a41"), 
+    "name" : "Phim lẻ", 
+    "name2" : "Phim lẻ", 
+    "formal_code" : "phim-le", 
+    "share_url" : "phim-le.html", 
+    "createdAt" : ISODate("2018-12-12T11:29:16.975+0000"), 
+    "updatedAt" : ISODate("2018-12-12T11:29:17.132+0000"), 
+    "__v" : NumberInt(0), 
+    "id" : "5c10f10c8d9e6223ace22a41"
+}
+{ 
+    "_id" : ObjectId("5c10f1238d9e6223ace22a42"), 
+    "name" : "Phim bộ", 
+    "name2" : "Phim bộ", 
+    "formal_code" : "phim-bo", 
+    "share_url" : "phim-bo.html", 
+    "createdAt" : ISODate("2018-12-12T11:29:39.775+0000"), 
+    "updatedAt" : ISODate("2018-12-12T11:29:39.781+0000"), 
+    "__v" : NumberInt(0), 
+    "id" : "5c10f1238d9e6223ace22a42"
+}
+{ 
+    "_id" : ObjectId("5c10f1488d9e6223ace22a43"), 
+    "name" : "Phim chiếu rạp", 
+    "name2" : "Phim chiếu rạp", 
+    "formal_code" : "phim-chieu-rap", 
+    "share_url" : "phim-chieu-rap.html", 
+    "createdAt" : ISODate("2018-12-12T11:30:16.073+0000"), 
+    "updatedAt" : ISODate("2018-12-12T11:30:16.079+0000"), 
+    "__v" : NumberInt(0), 
+    "id" : "5c10f1488d9e6223ace22a43"
+}
+{ 
+    "_id" : ObjectId("5c10f1858d9e6223ace22a44"), 
+    "name" : "Trailer", 
+    "name2" : "Trailer", 
+    "formal_code" : "trailer", 
+    "share_url" : "trailer.html", 
+    "createdAt" : ISODate("2018-12-12T11:31:17.665+0000"), 
+    "updatedAt" : ISODate("2018-12-12T11:31:17.669+0000"), 
+    "__v" : NumberInt(0), 
+    "id" : "5c10f1858d9e6223ace22a44"
+}

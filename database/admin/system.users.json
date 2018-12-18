@@ -1,0 +1,79 @@
+{ 
+    "_id" : "admin.root", 
+    "user" : "root", 
+    "db" : "admin", 
+    "credentials" : {
+        "SCRAM-SHA-1" : {
+            "iterationCount" : NumberInt(10000), 
+            "salt" : "H5pJhrt4yZFCp8IkjHMaTQ==", 
+            "storedKey" : "qPnsAYtl8hAVOg3qf9z7tKjYHZM=", 
+            "serverKey" : "G8SbV37t5+Ygmy62wIUB1MJZ8y4="
+        }, 
+        "SCRAM-SHA-256" : {
+            "iterationCount" : NumberInt(15000), 
+            "salt" : "c7ND8bfZv2lfj7ytelF6dAd2umOZlBuVU0rUxA==", 
+            "storedKey" : "sJFKhuuyY8Ej5RpSxVykL8EfZhK2GlGG9QRLKoJNHNs=", 
+            "serverKey" : "QpNta/6dUM8I4Av5ON894WtJTl5Oc4HdtyUYhATFDDQ="
+        }
+    }, 
+    "roles" : [
+        {
+            "role" : "userAdminAnyDatabase", 
+            "db" : "admin"
+        }
+    ]
+}
+{ 
+    "_id" : "admin.myUserAdmin", 
+    "user" : "myUserAdmin", 
+    "db" : "admin", 
+    "credentials" : {
+        "SCRAM-SHA-1" : {
+            "iterationCount" : NumberInt(10000), 
+            "salt" : "BDtLXcTuT5GAhKzBiJaSCw==", 
+            "storedKey" : "D2/DQJH+Gx3nrTHvsQ8S6aAKHnw=", 
+            "serverKey" : "IkPWn5MG97WSb0Dw14HDzBXj8zQ="
+        }, 
+        "SCRAM-SHA-256" : {
+            "iterationCount" : NumberInt(15000), 
+            "salt" : "j2eToA5sGsE4KxCBxx/7bgXELzyeAfRUxkbx1Q==", 
+            "storedKey" : "+gDtX7XDWDWzwznvG9bKvaZTHAGOJqlg7Uhgc9RgNAI=", 
+            "serverKey" : "eBcvevej/JbF2tkwaljN8668QsVHr4H/kOelmGLxnHo="
+        }
+    }, 
+    "roles" : [
+        {
+            "role" : "userAdminAnyDatabase", 
+            "db" : "admin"
+        }, 
+        {
+            "role" : "readWriteAnyDatabase", 
+            "db" : "admin"
+        }
+    ]
+}
+{ 
+    "_id" : "videos.videos", 
+    "user" : "videos", 
+    "db" : "videos", 
+    "credentials" : {
+        "SCRAM-SHA-1" : {
+            "iterationCount" : NumberInt(10000), 
+            "salt" : "5zIcZNdejLAiVQDjLmjT3A==", 
+            "storedKey" : "rKYw3j24NbhquChCAq5g8sJ23yc=", 
+            "serverKey" : "F34tAxT0DgJOHudim3hF4Pgc6VE="
+        }, 
+        "SCRAM-SHA-256" : {
+            "iterationCount" : NumberInt(15000), 
+            "salt" : "vangkh9DIe7Py4Gad6ZIj/CXTxJKzUdEjSf8IA==", 
+            "storedKey" : "eL4clhoAi/Sngs1ctLV6KtfLYqNjpz3yyRbpsamHies=", 
+            "serverKey" : "9LMvWGmkjlAYGBuI16Q2ifnBsNmqAPjTws+ynfnapzA="
+        }
+    }, 
+    "roles" : [
+        {
+            "role" : "readWrite", 
+            "db" : "videos"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{ 
+    "_id" : {
+        "id" : BinData(4, "d2cv0w4WQa2BqIiZq4WMuQ=="), 
+        "uid" : BinData(0, "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=")
+    }, 
+    "lastUse" : ISODate("2018-12-18T09:46:59.490+0000")
+}
+{ 
+    "_id" : {
+        "id" : BinData(4, "EJg+ECdNTR6i3KIU+9RggA=="), 
+        "uid" : BinData(0, "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=")
+    }, 
+    "lastUse" : ISODate("2018-12-18T09:46:59.498+0000")
+}
+{ 
+    "_id" : {
+        "id" : BinData(4, "9+gHKKGWSNOpJE0RoEK9+g=="), 
+        "uid" : BinData(0, "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=")
+    }, 
+    "lastUse" : ISODate("2018-12-18T09:46:59.499+0000")
+}
+{ 
+    "_id" : {
+        "id" : BinData(4, "pJa1x5h1SBiITt41/sDd/w=="), 
+        "uid" : BinData(0, "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=")
+    }, 
+    "lastUse" : ISODate("2018-12-18T09:46:59.499+0000")
+}

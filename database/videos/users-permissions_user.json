@@ -1,0 +1,11 @@
+{ 
+    "_id" : ObjectId("5c0f5e31a51e182d80b6b798"), 
+    "confirmed" : true, 
+    "blocked" : false, 
+    "username" : "app1", 
+    "password" : "$2a$10$2ZRon1EX12ghWEPnTp/NaOvhOmciaUlBvdK/UsEXVXYQ.uejHN3D2", 
+    "email" : "anhhai2810@gmail.com", 
+    "provider" : "local", 
+    "role" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "__v" : NumberInt(0)
+}

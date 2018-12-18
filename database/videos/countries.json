@@ -1,0 +1,131 @@
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461ef"), 
+    "name" : "Việt Nam", 
+    "__v" : NumberInt(0), 
+    "code" : "vn", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.602+0000"), 
+    "name2" : "Việt Nam", 
+    "share_url" : "vn.html", 
+    "updatedAt" : ISODate("2018-12-12T11:03:30.549+0000"), 
+    "id" : "5c10eab0af6db17a69d461ef"
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461f0"), 
+    "name" : "Hàn Quốc", 
+    "__v" : NumberInt(0), 
+    "code" : "kr", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.603+0000"), 
+    "name2" : "Hàn Quốc", 
+    "share_url" : "kr.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.603+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461f4"), 
+    "name" : "Nhật Bản", 
+    "__v" : NumberInt(0), 
+    "code" : "jp", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.603+0000"), 
+    "name2" : "Nhật Bản", 
+    "share_url" : "jp.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.603+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461f5"), 
+    "name" : "Pháp", 
+    "__v" : NumberInt(0), 
+    "code" : "fr", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.604+0000"), 
+    "name2" : "Pháp", 
+    "share_url" : "fr.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.604+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461f6"), 
+    "name" : "Hồng Kông", 
+    "__v" : NumberInt(0), 
+    "code" : "hk", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.603+0000"), 
+    "name2" : "Hồng Kông", 
+    "share_url" : "hk.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.603+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461f9"), 
+    "name" : "Đài Loan", 
+    "__v" : NumberInt(0), 
+    "code" : "tw", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.604+0000"), 
+    "name2" : "Đài Loan", 
+    "share_url" : "tw.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.604+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461fa"), 
+    "name" : "Úc", 
+    "__v" : NumberInt(0), 
+    "code" : "au", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.604+0000"), 
+    "name2" : "Úc", 
+    "share_url" : "au.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.604+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461fb"), 
+    "name" : "Mỹ", 
+    "__v" : NumberInt(0), 
+    "code" : "us", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.602+0000"), 
+    "name2" : "Mỹ", 
+    "share_url" : "us.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.602+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461fc"), 
+    "name" : "Trung Quốc", 
+    "__v" : NumberInt(0), 
+    "code" : "cn", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.602+0000"), 
+    "name2" : "Trung Quốc", 
+    "share_url" : "cn.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.602+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d461ff"), 
+    "name" : "Thái Lan", 
+    "__v" : NumberInt(0), 
+    "code" : "th", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.603+0000"), 
+    "name2" : "Thái Lan", 
+    "share_url" : "th.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.603+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d46200"), 
+    "name" : "Ấn Độ", 
+    "__v" : NumberInt(0), 
+    "code" : "in", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.603+0000"), 
+    "name2" : "Ấn Độ", 
+    "share_url" : "in.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.603+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d46203"), 
+    "name" : "Canada", 
+    "__v" : NumberInt(0), 
+    "code" : "ca", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.605+0000"), 
+    "name2" : "Canada", 
+    "share_url" : "ca.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.605+0000")
+}
+{ 
+    "_id" : ObjectId("5c10eab0af6db17a69d46204"), 
+    "name" : "Anh", 
+    "__v" : NumberInt(0), 
+    "code" : "uk", 
+    "createdAt" : ISODate("2018-12-12T11:02:08.604+0000"), 
+    "name2" : "Anh", 
+    "share_url" : "uk.html", 
+    "updatedAt" : ISODate("2018-12-12T11:02:08.604+0000")
+}

@@ -1,0 +1,140 @@
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46163"), 
+    "name" : "Tất cả", 
+    "__v" : NumberInt(0), 
+    "code" : "", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.379+0000"), 
+    "name2" : "Tất cả", 
+    "share_url" : ".html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.379+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46164"), 
+    "name" : "Việt Nam", 
+    "__v" : NumberInt(0), 
+    "code" : "vn", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.384+0000"), 
+    "name2" : "Việt Nam", 
+    "share_url" : "vn.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.384+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46165"), 
+    "name" : "Mỹ", 
+    "__v" : NumberInt(0), 
+    "code" : "us", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.385+0000"), 
+    "name2" : "Mỹ", 
+    "share_url" : "us.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.385+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46166"), 
+    "name" : "Trung Quốc", 
+    "__v" : NumberInt(0), 
+    "code" : "cn", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.384+0000"), 
+    "name2" : "Trung Quốc", 
+    "share_url" : "cn.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.384+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46167"), 
+    "name" : "Hàn Quốc", 
+    "__v" : NumberInt(0), 
+    "code" : "kr", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.385+0000"), 
+    "name2" : "Hàn Quốc", 
+    "share_url" : "kr.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.385+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d4616a"), 
+    "name" : "Hồng Kông", 
+    "__v" : NumberInt(0), 
+    "code" : "hk", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.385+0000"), 
+    "name2" : "Hồng Kông", 
+    "share_url" : "hk.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.385+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d4616b"), 
+    "name" : "Nhật Bản", 
+    "__v" : NumberInt(0), 
+    "code" : "jp", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.385+0000"), 
+    "name2" : "Nhật Bản", 
+    "share_url" : "jp.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.385+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d4616e"), 
+    "name" : "Thái Lan", 
+    "__v" : NumberInt(0), 
+    "code" : "th", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.386+0000"), 
+    "name2" : "Thái Lan", 
+    "share_url" : "th.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.386+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46170"), 
+    "name" : "Pháp", 
+    "__v" : NumberInt(0), 
+    "code" : "fr", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.386+0000"), 
+    "name2" : "Pháp", 
+    "share_url" : "fr.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.386+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46171"), 
+    "name" : "Ấn Độ", 
+    "__v" : NumberInt(0), 
+    "code" : "in", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.385+0000"), 
+    "name2" : "Ấn Độ", 
+    "share_url" : "in.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.385+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46175"), 
+    "name" : "Úc", 
+    "__v" : NumberInt(0), 
+    "code" : "au", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.386+0000"), 
+    "name2" : "Úc", 
+    "share_url" : "au.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.386+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46176"), 
+    "name" : "Đài Loan", 
+    "__v" : NumberInt(0), 
+    "code" : "tw", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.386+0000"), 
+    "name2" : "Đài Loan", 
+    "share_url" : "tw.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.386+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46177"), 
+    "name" : "Canada", 
+    "__v" : NumberInt(0), 
+    "code" : "ca", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.387+0000"), 
+    "name2" : "Canada", 
+    "share_url" : "ca.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.387+0000")
+}
+{ 
+    "_id" : ObjectId("5c10ea1daf6db17a69d46179"), 
+    "name" : "Anh", 
+    "__v" : NumberInt(0), 
+    "code" : "uk", 
+    "createdAt" : ISODate("2018-12-12T10:59:41.386+0000"), 
+    "name2" : "Anh", 
+    "share_url" : "uk.html", 
+    "updatedAt" : ISODate("2018-12-12T10:59:41.386+0000")
+}

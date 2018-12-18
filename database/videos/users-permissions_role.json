@@ -1,0 +1,21 @@
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b4"), 
+    "name" : "Administrator", 
+    "description" : "These users have all access in the project.", 
+    "type" : "root", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b5"), 
+    "name" : "Authenticated", 
+    "description" : "Default role given to authenticated user.", 
+    "type" : "authenticated", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c0f5dfda51e182d80b6b6b6"), 
+    "name" : "Public", 
+    "description" : "Default role given to unauthenticated user.", 
+    "type" : "public", 
+    "__v" : NumberInt(0)
+}

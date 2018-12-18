@@ -1,0 +1,23 @@
+{ 
+    "_id" : ObjectId("5c113e2a3da4f82e24aa125d"), 
+    "name" : "iron-man-movie-wallpapers-1920x1200.jpg", 
+    "sha256" : "sdf67sULNn2iDL_sYKbubEK9ZcEqJ+5Al1HiNBer02g", 
+    "hash" : "50be386d40314603b721b3f83485f186", 
+    "ext" : ".jpg", 
+    "mime" : "image/jpeg", 
+    "size" : "207.08", 
+    "url" : "/uploads/50be386d40314603b721b3f83485f186.jpg", 
+    "provider" : "local", 
+    "related" : [
+        {
+            "_id" : ObjectId("5c113e2b3da4f82e24aa125e"), 
+            "ref" : ObjectId("5c10f7623da4f82e24aa125c"), 
+            "kind" : "Videos", 
+            "field" : "images"
+        }
+    ], 
+    "createdAt" : ISODate("2018-12-12T16:58:18.792+0000"), 
+    "updatedAt" : ISODate("2018-12-12T16:58:19.018+0000"), 
+    "__v" : NumberInt(0), 
+    "id" : "5c113e2a3da4f82e24aa125d"
+}
