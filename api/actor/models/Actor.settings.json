@@ -1,0 +1,79 @@
+{
+  "connection": "default",
+  "collectionName": "actor",
+  "info": {
+    "name": "actor",
+    "description": "Diễn viên"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "name2": {
+      "default": "",
+      "type": "string"
+    },
+    "lead": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "createdAt": {
+      "default": "",
+      "type": "date"
+    },
+    "updatedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "birthday": {
+      "default": "",
+      "type": "date"
+    },
+    "chieu_cao": {
+      "default": "",
+      "type": "integer"
+    },
+    "can_nang": {
+      "default": "",
+      "type": "integer"
+    },
+    "ngon_ngu": {
+      "default": "",
+      "type": "string"
+    },
+    "so_thich": {
+      "default": "",
+      "type": "string"
+    },
+    "total_view": {
+      "default": "",
+      "type": "integer"
+    },
+    "total_comment": {
+      "default": "",
+      "type": "integer"
+    },
+    "countries": {
+      "model": "countries",
+      "via": "actors"
+    },
+    "videos": {
+      "collection": "videos",
+      "via": "actors"
+    }
+  }
+}

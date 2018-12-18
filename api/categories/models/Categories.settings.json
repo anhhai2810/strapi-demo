@@ -1,0 +1,73 @@
+{
+  "connection": "default",
+  "collectionName": "categories",
+  "info": {
+    "name": "categories",
+    "description": "Thể loại - Danh mục"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "default": "",
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "status": {
+      "default": 1,
+      "type": "integer"
+    },
+    "createdAt": {
+      "default": "",
+      "type": "date"
+    },
+    "updatedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "cate_code": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "cate_type": {
+      "default": 1,
+      "type": "integer"
+    },
+    "show_folder": {
+      "default": 1,
+      "type": "integer"
+    },
+    "special_option": {
+      "default": 0,
+      "type": "integer"
+    },
+    "parent_id": {
+      "default": "0",
+      "type": "string"
+    },
+    "share_url": {
+      "default": "",
+      "type": "string"
+    },
+    "cate_crawler_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "videos": {
+      "collection": "videos",
+      "via": "categories"
+    }
+  }
+}

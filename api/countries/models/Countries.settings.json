@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "countries",
+  "info": {
+    "name": "countries",
+    "description": "Quốc gia"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "name2": {
+      "default": "",
+      "type": "string"
+    },
+    "createdAt": {
+      "default": "",
+      "type": "date"
+    },
+    "updatedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "share_url": {
+      "default": "",
+      "type": "string"
+    },
+    "actors": {
+      "collection": "actor",
+      "via": "countries"
+    },
+    "code": {
+      "default": "",
+      "type": "string"
+    },
+    "videos": {
+      "collection": "videos",
+      "via": "countries"
+    }
+  }
+}

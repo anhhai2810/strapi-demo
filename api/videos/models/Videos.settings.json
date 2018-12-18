@@ -1,0 +1,137 @@
+{
+  "connection": "default",
+  "collectionName": "videos",
+  "info": {
+    "name": "videos",
+    "description": "Videos"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "default": "",
+      "type": "string"
+    },
+    "links": {
+      "default": "",
+      "type": "json",
+      "required": true
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "status": {
+      "default": 0,
+      "type": "integer"
+    },
+    "createdAt": {
+      "default": "",
+      "type": "date"
+    },
+    "updatedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "publishAt": {
+      "default": "",
+      "type": "date"
+    },
+    "IMDb": {
+      "default": 5,
+      "type": "decimal"
+    },
+    "dao_dien": {
+      "default": "",
+      "type": "string"
+    },
+    "ngay_phat_hanh": {
+      "default": "",
+      "type": "date"
+    },
+    "ngay_ra_rap": {
+      "default": "",
+      "type": "date"
+    },
+    "thoi_luong": {
+      "default": 0,
+      "type": "integer"
+    },
+    "chat_luong": {
+      "default": "",
+      "type": "string"
+    },
+    "do_phan_giai": {
+      "default": "",
+      "type": "string"
+    },
+    "ngon_ngu": {
+      "default": "",
+      "type": "string"
+    },
+    "cty_sx": {
+      "default": "",
+      "type": "string"
+    },
+    "total_view": {
+      "default": 0,
+      "type": "integer"
+    },
+    "rating": {
+      "default": 0,
+      "type": "decimal"
+    },
+    "trailer_link": {
+      "default": "",
+      "type": "string"
+    },
+    "tags": {
+      "default": "",
+      "type": "json"
+    },
+    "total_comment": {
+      "default": "",
+      "type": "integer"
+    },
+    "name2": {
+      "default": "",
+      "type": "string"
+    },
+    "hang_sx": {
+      "default": "",
+      "type": "string"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "videos",
+      "dominant": true
+    },
+    "actors": {
+      "collection": "actor",
+      "via": "videos",
+      "dominant": true
+    },
+    "countries": {
+      "collection": "countries",
+      "via": "videos",
+      "dominant": true
+    },
+    "formalities": {
+      "collection": "formality",
+      "via": "videos",
+      "dominant": true
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

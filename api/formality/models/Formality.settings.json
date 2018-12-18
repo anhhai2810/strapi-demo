@@ -1,0 +1,51 @@
+{
+  "connection": "default",
+  "collectionName": "formality",
+  "info": {
+    "name": "formality",
+    "description": "Hình thức"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "name2": {
+      "default": "",
+      "type": "string"
+    },
+    "formal_code": {
+      "default": "",
+      "type": "string"
+    },
+    "share_url": {
+      "default": "",
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "createdAt": {
+      "default": "",
+      "type": "date"
+    },
+    "updatedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "lead": {
+      "default": "",
+      "type": "string"
+    },
+    "videos": {
+      "collection": "videos",
+      "via": "formalities"
+    }
+  }
+}
