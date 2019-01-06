@@ -1,6 +1,6 @@
 {
-  "host": "localhost",
-  "port": 1337,
+  "host": "admin.hdh.com",
+  "port": 80,
   "proxy": {
     "enabled": false
   },
