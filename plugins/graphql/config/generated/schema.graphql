@@ -1,0 +1,1286 @@
+"""Diễn viên"""
+type Actor {
+  _id: ID!
+  createdAt: DateTime
+  updatedAt: DateTime
+  name: String
+  name2: String
+  lead: String
+  content: String
+  birthday: DateTime
+  chieu_cao: Int
+  can_nang: Int
+  ngon_ngu: String
+  so_thich: String
+  total_view: Int
+  total_comment: Int
+  countries: Countries
+  images(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  videos(sort: String, limit: Int, start: Int, where: JSON): [Videos]
+}
+
+type ActorAggregator {
+  count: Int
+  sum: ActorAggregatorSum
+  avg: ActorAggregatorAvg
+  min: ActorAggregatorMin
+  max: ActorAggregatorMax
+}
+
+type ActorAggregatorAvg {
+  chieu_cao: Float
+  can_nang: Float
+  total_view: Float
+  total_comment: Float
+}
+
+type ActorAggregatorMax {
+  chieu_cao: Float
+  can_nang: Float
+  total_view: Float
+  total_comment: Float
+}
+
+type ActorAggregatorMin {
+  chieu_cao: Float
+  can_nang: Float
+  total_view: Float
+  total_comment: Float
+}
+
+type ActorAggregatorSum {
+  chieu_cao: Float
+  can_nang: Float
+  total_view: Float
+  total_comment: Float
+}
+
+type ActorConnection {
+  values: [Actor]
+  groupBy: ActorGroupBy
+  aggregate: ActorAggregator
+}
+
+type ActorConnection_id {
+  key: ID
+  connection: ActorConnection
+}
+
+type ActorConnectionBirthday {
+  key: DateTime
+  connection: ActorConnection
+}
+
+type ActorConnectionCan_nang {
+  key: Int
+  connection: ActorConnection
+}
+
+type ActorConnectionChieu_cao {
+  key: Int
+  connection: ActorConnection
+}
+
+type ActorConnectionContent {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionCountries {
+  key: ID
+  connection: ActorConnection
+}
+
+type ActorConnectionCreatedAt {
+  key: DateTime
+  connection: ActorConnection
+}
+
+type ActorConnectionLead {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionName {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionName2 {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionNgon_ngu {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionSo_thich {
+  key: String
+  connection: ActorConnection
+}
+
+type ActorConnectionTotal_comment {
+  key: Int
+  connection: ActorConnection
+}
+
+type ActorConnectionTotal_view {
+  key: Int
+  connection: ActorConnection
+}
+
+type ActorConnectionUpdatedAt {
+  key: DateTime
+  connection: ActorConnection
+}
+
+type ActorGroupBy {
+  _id: [ActorConnection_id]
+  createdAt: [ActorConnectionCreatedAt]
+  updatedAt: [ActorConnectionUpdatedAt]
+  name: [ActorConnectionName]
+  name2: [ActorConnectionName2]
+  lead: [ActorConnectionLead]
+  content: [ActorConnectionContent]
+  birthday: [ActorConnectionBirthday]
+  chieu_cao: [ActorConnectionChieu_cao]
+  can_nang: [ActorConnectionCan_nang]
+  ngon_ngu: [ActorConnectionNgon_ngu]
+  so_thich: [ActorConnectionSo_thich]
+  total_view: [ActorConnectionTotal_view]
+  total_comment: [ActorConnectionTotal_comment]
+  countries: [ActorConnectionCountries]
+}
+
+input ActorInput {
+  name: String
+  name2: String
+  lead: String
+  content: String
+  images: [ID]
+  createdAt: DateTime
+  updatedAt: DateTime
+  birthday: DateTime
+  chieu_cao: Int
+  can_nang: Int
+  ngon_ngu: String
+  so_thich: String
+  total_view: Int
+  total_comment: Int
+  countries: ID
+  videos: [ID]
+}
+
+"""Thể loại - Danh mục"""
+type Categories {
+  _id: ID!
+  createdAt: DateTime
+  updatedAt: DateTime
+  name: String!
+  lead: String
+  status: Int
+  cate_code: String!
+  cate_type: Int
+  show_folder: Int
+  special_option: Int
+  parent_id: String
+  share_url: String
+  cate_crawler_id: Int
+  images(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  videos(sort: String, limit: Int, start: Int, where: JSON): [Videos]
+}
+
+type CategoriesAggregator {
+  count: Int
+  sum: CategoriesAggregatorSum
+  avg: CategoriesAggregatorAvg
+  min: CategoriesAggregatorMin
+  max: CategoriesAggregatorMax
+}
+
+type CategoriesAggregatorAvg {
+  status: Float
+  cate_type: Float
+  show_folder: Float
+  special_option: Float
+  cate_crawler_id: Float
+}
+
+type CategoriesAggregatorMax {
+  status: Float
+  cate_type: Float
+  show_folder: Float
+  special_option: Float
+  cate_crawler_id: Float
+}
+
+type CategoriesAggregatorMin {
+  status: Float
+  cate_type: Float
+  show_folder: Float
+  special_option: Float
+  cate_crawler_id: Float
+}
+
+type CategoriesAggregatorSum {
+  status: Float
+  cate_type: Float
+  show_folder: Float
+  special_option: Float
+  cate_crawler_id: Float
+}
+
+type CategoriesConnection {
+  values: [Categories]
+  groupBy: CategoriesGroupBy
+  aggregate: CategoriesAggregator
+}
+
+type CategoriesConnection_id {
+  key: ID
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionCate_code {
+  key: String
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionCate_crawler_id {
+  key: Int
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionCate_type {
+  key: Int
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionCreatedAt {
+  key: DateTime
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionLead {
+  key: String
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionName {
+  key: String
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionParent_id {
+  key: String
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionShare_url {
+  key: String
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionShow_folder {
+  key: Int
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionSpecial_option {
+  key: Int
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionStatus {
+  key: Int
+  connection: CategoriesConnection
+}
+
+type CategoriesConnectionUpdatedAt {
+  key: DateTime
+  connection: CategoriesConnection
+}
+
+type CategoriesGroupBy {
+  _id: [CategoriesConnection_id]
+  createdAt: [CategoriesConnectionCreatedAt]
+  updatedAt: [CategoriesConnectionUpdatedAt]
+  name: [CategoriesConnectionName]
+  lead: [CategoriesConnectionLead]
+  status: [CategoriesConnectionStatus]
+  cate_code: [CategoriesConnectionCate_code]
+  cate_type: [CategoriesConnectionCate_type]
+  show_folder: [CategoriesConnectionShow_folder]
+  special_option: [CategoriesConnectionSpecial_option]
+  parent_id: [CategoriesConnectionParent_id]
+  share_url: [CategoriesConnectionShare_url]
+  cate_crawler_id: [CategoriesConnectionCate_crawler_id]
+}
+
+input CategoriesInput {
+  name: String!
+  lead: String
+  images: [ID]
+  status: Int
+  createdAt: DateTime
+  updatedAt: DateTime
+  cate_code: String!
+  cate_type: Int
+  show_folder: Int
+  special_option: Int
+  parent_id: String
+  share_url: String
+  cate_crawler_id: Int
+  videos: [ID]
+}
+
+"""Quốc gia"""
+type Countries {
+  _id: ID!
+  createdAt: DateTime
+  updatedAt: DateTime
+  name: String
+  name2: String
+  share_url: String
+  code: String
+  actors(sort: String, limit: Int, start: Int, where: JSON): [Actor]
+  videos(sort: String, limit: Int, start: Int, where: JSON): [Videos]
+}
+
+type CountriesAggregator {
+  count: Int
+}
+
+type CountriesConnection {
+  values: [Countries]
+  groupBy: CountriesGroupBy
+  aggregate: CountriesAggregator
+}
+
+type CountriesConnection_id {
+  key: ID
+  connection: CountriesConnection
+}
+
+type CountriesConnectionCode {
+  key: String
+  connection: CountriesConnection
+}
+
+type CountriesConnectionCreatedAt {
+  key: DateTime
+  connection: CountriesConnection
+}
+
+type CountriesConnectionName {
+  key: String
+  connection: CountriesConnection
+}
+
+type CountriesConnectionName2 {
+  key: String
+  connection: CountriesConnection
+}
+
+type CountriesConnectionShare_url {
+  key: String
+  connection: CountriesConnection
+}
+
+type CountriesConnectionUpdatedAt {
+  key: DateTime
+  connection: CountriesConnection
+}
+
+type CountriesGroupBy {
+  _id: [CountriesConnection_id]
+  createdAt: [CountriesConnectionCreatedAt]
+  updatedAt: [CountriesConnectionUpdatedAt]
+  name: [CountriesConnectionName]
+  name2: [CountriesConnectionName2]
+  share_url: [CountriesConnectionShare_url]
+  code: [CountriesConnectionCode]
+}
+
+input CountriesInput {
+  name: String
+  name2: String
+  createdAt: DateTime
+  updatedAt: DateTime
+  share_url: String
+  actors: [ID]
+  code: String
+  videos: [ID]
+}
+
+input createActorInput {
+  data: ActorInput
+}
+
+type createActorPayload {
+  actor: Actor
+}
+
+input createCategoriesInput {
+  data: CategoriesInput
+}
+
+type createCategoriesPayload {
+  category: Categories
+}
+
+input createCountriesInput {
+  data: CountriesInput
+}
+
+type createCountriesPayload {
+  country: Countries
+}
+
+input createFormalityInput {
+  data: FormalityInput
+}
+
+type createFormalityPayload {
+  formality: Formality
+}
+
+input createRoleInput {
+  data: RoleInput
+}
+
+type createRolePayload {
+  role: UsersPermissionsRole
+}
+
+input createUserInput {
+  data: UserInput
+}
+
+type createUserPayload {
+  user: UsersPermissionsUser
+}
+
+input createVideosInput {
+  data: VideosInput
+}
+
+type createVideosPayload {
+  video: Videos
+}
+
+"""
+The `DateTime` scalar represents a date and time following the ISO 8601 standard
+"""
+scalar DateTime
+
+input deleteActorInput {
+  where: InputID
+}
+
+type deleteActorPayload {
+  actor: Actor
+}
+
+input deleteCategoriesInput {
+  where: InputID
+}
+
+type deleteCategoriesPayload {
+  category: Categories
+}
+
+input deleteCountriesInput {
+  where: InputID
+}
+
+type deleteCountriesPayload {
+  country: Countries
+}
+
+input deleteFormalityInput {
+  where: InputID
+}
+
+type deleteFormalityPayload {
+  formality: Formality
+}
+
+input deleteRoleInput {
+  where: InputID
+}
+
+type deleteRolePayload {
+  role: UsersPermissionsRole
+}
+
+input deleteUserInput {
+  where: InputID
+}
+
+type deleteUserPayload {
+  user: UsersPermissionsUser
+}
+
+input deleteVideosInput {
+  where: InputID
+}
+
+type deleteVideosPayload {
+  video: Videos
+}
+
+input FileInput {
+  name: String!
+  hash: String!
+  sha256: String
+  ext: String
+  mime: String!
+  size: String!
+  url: String!
+  provider: String!
+  public_id: String
+  related: [ID]
+}
+
+"""Hình thức"""
+type Formality {
+  _id: ID!
+  createdAt: DateTime
+  updatedAt: DateTime
+  name: String
+  name2: String
+  formal_code: String
+  share_url: String
+  lead: String
+  images(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  videos(sort: String, limit: Int, start: Int, where: JSON): [Videos]
+}
+
+type FormalityAggregator {
+  count: Int
+}
+
+type FormalityConnection {
+  values: [Formality]
+  groupBy: FormalityGroupBy
+  aggregate: FormalityAggregator
+}
+
+type FormalityConnection_id {
+  key: ID
+  connection: FormalityConnection
+}
+
+type FormalityConnectionCreatedAt {
+  key: DateTime
+  connection: FormalityConnection
+}
+
+type FormalityConnectionFormal_code {
+  key: String
+  connection: FormalityConnection
+}
+
+type FormalityConnectionLead {
+  key: String
+  connection: FormalityConnection
+}
+
+type FormalityConnectionName {
+  key: String
+  connection: FormalityConnection
+}
+
+type FormalityConnectionName2 {
+  key: String
+  connection: FormalityConnection
+}
+
+type FormalityConnectionShare_url {
+  key: String
+  connection: FormalityConnection
+}
+
+type FormalityConnectionUpdatedAt {
+  key: DateTime
+  connection: FormalityConnection
+}
+
+type FormalityGroupBy {
+  _id: [FormalityConnection_id]
+  createdAt: [FormalityConnectionCreatedAt]
+  updatedAt: [FormalityConnectionUpdatedAt]
+  name: [FormalityConnectionName]
+  name2: [FormalityConnectionName2]
+  formal_code: [FormalityConnectionFormal_code]
+  share_url: [FormalityConnectionShare_url]
+  lead: [FormalityConnectionLead]
+}
+
+input FormalityInput {
+  name: String
+  name2: String
+  formal_code: String
+  share_url: String
+  images: [ID]
+  createdAt: DateTime
+  updatedAt: DateTime
+  lead: String
+  videos: [ID]
+}
+
+input InputID {
+  id: ID!
+}
+
+"""
+The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf).
+"""
+scalar JSON
+
+union Morph = UsersPermissionsMe | UsersPermissionsMeRole | Actor | createActorPayload | updateActorPayload | deleteActorPayload | ActorConnection | ActorAggregator | ActorAggregatorSum | ActorAggregatorAvg | ActorAggregatorMin | ActorAggregatorMax | ActorGroupBy | ActorConnection_id | ActorConnectionCreatedAt | ActorConnectionUpdatedAt | ActorConnectionName | ActorConnectionName2 | ActorConnectionLead | ActorConnectionContent | ActorConnectionBirthday | ActorConnectionChieu_cao | ActorConnectionCan_nang | ActorConnectionNgon_ngu | ActorConnectionSo_thich | ActorConnectionTotal_view | ActorConnectionTotal_comment | ActorConnectionCountries | Categories | createCategoriesPayload | updateCategoriesPayload | deleteCategoriesPayload | CategoriesConnection | CategoriesAggregator | CategoriesAggregatorSum | CategoriesAggregatorAvg | CategoriesAggregatorMin | CategoriesAggregatorMax | CategoriesGroupBy | CategoriesConnection_id | CategoriesConnectionCreatedAt | CategoriesConnectionUpdatedAt | CategoriesConnectionName | CategoriesConnectionLead | CategoriesConnectionStatus | CategoriesConnectionCate_code | CategoriesConnectionCate_type | CategoriesConnectionShow_folder | CategoriesConnectionSpecial_option | CategoriesConnectionParent_id | CategoriesConnectionShare_url | CategoriesConnectionCate_crawler_id | Countries | createCountriesPayload | updateCountriesPayload | deleteCountriesPayload | CountriesConnection | CountriesAggregator | CountriesGroupBy | CountriesConnection_id | CountriesConnectionCreatedAt | CountriesConnectionUpdatedAt | CountriesConnectionName | CountriesConnectionName2 | CountriesConnectionShare_url | CountriesConnectionCode | Formality | createFormalityPayload | updateFormalityPayload | deleteFormalityPayload | FormalityConnection | FormalityAggregator | FormalityGroupBy | FormalityConnection_id | FormalityConnectionCreatedAt | FormalityConnectionUpdatedAt | FormalityConnectionName | FormalityConnectionName2 | FormalityConnectionFormal_code | FormalityConnectionShare_url | FormalityConnectionLead | Videos | createVideosPayload | updateVideosPayload | deleteVideosPayload | VideosConnection | VideosAggregator | VideosAggregatorSum | VideosAggregatorAvg | VideosAggregatorMin | VideosAggregatorMax | VideosGroupBy | VideosConnection_id | VideosConnectionCreatedAt | VideosConnectionUpdatedAt | VideosConnectionName | VideosConnectionLead | VideosConnectionStatus | VideosConnectionPublishAt | VideosConnectionImdb | VideosConnectionDao_dien | VideosConnectionNgay_phat_hanh | VideosConnectionNgay_ra_rap | VideosConnectionThoi_luong | VideosConnectionChat_luong | VideosConnectionDo_phan_giai | VideosConnectionNgon_ngu | VideosConnectionCty_sx | VideosConnectionTotal_view | VideosConnectionRating | VideosConnectionTrailer_link | VideosConnectionTags | VideosConnectionTotal_comment | VideosConnectionName2 | VideosConnectionHang_sx | VideosConnectionContent | UploadFile | UploadFileConnection | UploadFileAggregator | UploadFileGroupBy | UploadFileConnection_id | UploadFileConnectionCreatedAt | UploadFileConnectionUpdatedAt | UploadFileConnectionName | UploadFileConnectionHash | UploadFileConnectionSha256 | UploadFileConnectionExt | UploadFileConnectionMime | UploadFileConnectionSize | UploadFileConnectionUrl | UploadFileConnectionProvider | UploadFileConnectionPublic_id | UsersPermissionsPermission | UsersPermissionsRole | createRolePayload | updateRolePayload | deleteRolePayload | UsersPermissionsRoleConnection | UsersPermissionsRoleAggregator | UsersPermissionsRoleGroupBy | UsersPermissionsRoleConnection_id | UsersPermissionsRoleConnectionName | UsersPermissionsRoleConnectionDescription | UsersPermissionsRoleConnectionType | UsersPermissionsUser | createUserPayload | updateUserPayload | deleteUserPayload | UsersPermissionsUserConnection | UsersPermissionsUserAggregator | UsersPermissionsUserGroupBy | UsersPermissionsUserConnection_id | UsersPermissionsUserConnectionUsername | UsersPermissionsUserConnectionEmail | UsersPermissionsUserConnectionProvider | UsersPermissionsUserConnectionConfirmed | UsersPermissionsUserConnectionBlocked | UsersPermissionsUserConnectionRole
+
+type Mutation {
+  createActor(input: createActorInput): createActorPayload
+  updateActor(input: updateActorInput): updateActorPayload
+  deleteActor(input: deleteActorInput): deleteActorPayload
+  createCategories(input: createCategoriesInput): createCategoriesPayload
+  updateCategories(input: updateCategoriesInput): updateCategoriesPayload
+  deleteCategories(input: deleteCategoriesInput): deleteCategoriesPayload
+  createCountries(input: createCountriesInput): createCountriesPayload
+  updateCountries(input: updateCountriesInput): updateCountriesPayload
+  deleteCountries(input: deleteCountriesInput): deleteCountriesPayload
+  createFormality(input: createFormalityInput): createFormalityPayload
+  updateFormality(input: updateFormalityInput): updateFormalityPayload
+  deleteFormality(input: deleteFormalityInput): deleteFormalityPayload
+  createVideos(input: createVideosInput): createVideosPayload
+  updateVideos(input: updateVideosInput): updateVideosPayload
+  deleteVideos(input: deleteVideosInput): deleteVideosPayload
+
+  """Create a new role"""
+  createRole(input: createRoleInput): createRolePayload
+
+  """Update an existing role"""
+  updateRole(input: updateRoleInput): updateRolePayload
+
+  """Delete an existing role"""
+  deleteRole(input: deleteRoleInput): deleteRolePayload
+  createUser(input: createUserInput): createUserPayload
+  updateUser(input: updateUserInput): updateUserPayload
+  deleteUser(input: deleteUserInput): deleteUserPayload
+  upload(refId: ID, ref: String, source: String, file: Upload!): UploadFile!
+}
+
+type Query {
+  actor(id: ID!): Actor
+  actors(sort: String, limit: Int, start: Int, where: JSON): [Actor]
+  actorsConnection(sort: String, limit: Int, start: Int, where: JSON): ActorConnection
+  category(id: ID!): Categories
+  categories(sort: String, limit: Int, start: Int, where: JSON): [Categories]
+  categoriesConnection(sort: String, limit: Int, start: Int, where: JSON): CategoriesConnection
+  country(id: ID!): Countries
+  countries(sort: String, limit: Int, start: Int, where: JSON): [Countries]
+  countriesConnection(sort: String, limit: Int, start: Int, where: JSON): CountriesConnection
+  formality(id: ID!): Formality
+  formalities(sort: String, limit: Int, start: Int, where: JSON): [Formality]
+  formalitiesConnection(sort: String, limit: Int, start: Int, where: JSON): FormalityConnection
+  video(id: ID!): Videos
+  videos(sort: String, limit: Int, start: Int, where: JSON): [Videos]
+  videosConnection(sort: String, limit: Int, start: Int, where: JSON): VideosConnection
+  files(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  filesConnection(sort: String, limit: Int, start: Int, where: JSON): UploadFileConnection
+  role(id: ID!): UsersPermissionsRole
+
+  """
+  Retrieve all the existing roles. You can't apply filters on this query.
+  """
+  roles(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsRole]
+  rolesConnection(sort: String, limit: Int, start: Int, where: JSON): UsersPermissionsRoleConnection
+  user(id: ID!): UsersPermissionsUser
+  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+  usersConnection(sort: String, limit: Int, start: Int, where: JSON): UsersPermissionsUserConnection
+  me: UsersPermissionsMe
+}
+
+input RoleInput {
+  name: String!
+  description: String
+  type: String
+  permissions: [ID]
+  users: [ID]
+}
+
+input updateActorInput {
+  where: InputID
+  data: ActorInput
+}
+
+type updateActorPayload {
+  actor: Actor
+}
+
+input updateCategoriesInput {
+  where: InputID
+  data: CategoriesInput
+}
+
+type updateCategoriesPayload {
+  category: Categories
+}
+
+input updateCountriesInput {
+  where: InputID
+  data: CountriesInput
+}
+
+type updateCountriesPayload {
+  country: Countries
+}
+
+input updateFormalityInput {
+  where: InputID
+  data: FormalityInput
+}
+
+type updateFormalityPayload {
+  formality: Formality
+}
+
+input updateRoleInput {
+  where: InputID
+  data: RoleInput
+}
+
+type updateRolePayload {
+  role: UsersPermissionsRole
+}
+
+input updateUserInput {
+  where: InputID
+  data: UserInput
+}
+
+type updateUserPayload {
+  user: UsersPermissionsUser
+}
+
+input updateVideosInput {
+  where: InputID
+  data: VideosInput
+}
+
+type updateVideosPayload {
+  video: Videos
+}
+
+"""The `Upload` scalar type represents a file upload."""
+scalar Upload
+
+type UploadFile {
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  hash: String!
+  sha256: String
+  ext: String
+  mime: String!
+  size: String!
+  url: String!
+  provider: String!
+  public_id: String
+  related(sort: String, limit: Int, start: Int, where: JSON): [Morph]
+}
+
+type UploadFileAggregator {
+  count: Int
+}
+
+type UploadFileConnection {
+  values: [UploadFile]
+  groupBy: UploadFileGroupBy
+  aggregate: UploadFileAggregator
+}
+
+type UploadFileConnection_id {
+  key: ID
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionCreatedAt {
+  key: DateTime
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionExt {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionHash {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionMime {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionName {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionProvider {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionPublic_id {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionSha256 {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionSize {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionUpdatedAt {
+  key: DateTime
+  connection: UploadFileConnection
+}
+
+type UploadFileConnectionUrl {
+  key: String
+  connection: UploadFileConnection
+}
+
+type UploadFileGroupBy {
+  _id: [UploadFileConnection_id]
+  createdAt: [UploadFileConnectionCreatedAt]
+  updatedAt: [UploadFileConnectionUpdatedAt]
+  name: [UploadFileConnectionName]
+  hash: [UploadFileConnectionHash]
+  sha256: [UploadFileConnectionSha256]
+  ext: [UploadFileConnectionExt]
+  mime: [UploadFileConnectionMime]
+  size: [UploadFileConnectionSize]
+  url: [UploadFileConnectionUrl]
+  provider: [UploadFileConnectionProvider]
+  public_id: [UploadFileConnectionPublic_id]
+}
+
+input UserInput {
+  username: String!
+  email: String!
+  provider: String
+  confirmed: Boolean
+  blocked: Boolean
+  role: ID
+}
+
+type UsersPermissionsMe {
+  _id: ID!
+  username: String!
+  email: String!
+  confirmed: Boolean
+  blocked: Boolean
+  role: UsersPermissionsMeRole
+}
+
+type UsersPermissionsMeRole {
+  _id: ID!
+  name: String!
+  description: String
+  type: String
+}
+
+type UsersPermissionsPermission {
+  _id: ID!
+  type: String!
+  controller: String!
+  action: String!
+  enabled: Boolean!
+  policy: String
+  role: UsersPermissionsRole
+}
+
+type UsersPermissionsRole {
+  _id: ID!
+  name: String!
+  description: String
+  type: String
+  permissions(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsPermission]
+  users(sort: String, limit: Int, start: Int, where: JSON): [UsersPermissionsUser]
+}
+
+type UsersPermissionsRoleAggregator {
+  count: Int
+}
+
+type UsersPermissionsRoleConnection {
+  values: [UsersPermissionsRole]
+  groupBy: UsersPermissionsRoleGroupBy
+  aggregate: UsersPermissionsRoleAggregator
+}
+
+type UsersPermissionsRoleConnection_id {
+  key: ID
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionDescription {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionName {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleConnectionType {
+  key: String
+  connection: UsersPermissionsRoleConnection
+}
+
+type UsersPermissionsRoleGroupBy {
+  _id: [UsersPermissionsRoleConnection_id]
+  name: [UsersPermissionsRoleConnectionName]
+  description: [UsersPermissionsRoleConnectionDescription]
+  type: [UsersPermissionsRoleConnectionType]
+}
+
+type UsersPermissionsUser {
+  _id: ID!
+  username: String!
+  email: String!
+  provider: String
+  confirmed: Boolean
+  blocked: Boolean
+  role: UsersPermissionsRole
+}
+
+type UsersPermissionsUserAggregator {
+  count: Int
+}
+
+type UsersPermissionsUserConnection {
+  values: [UsersPermissionsUser]
+  groupBy: UsersPermissionsUserGroupBy
+  aggregate: UsersPermissionsUserAggregator
+}
+
+type UsersPermissionsUserConnection_id {
+  key: ID
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionBlocked {
+  key: Boolean
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionConfirmed {
+  key: Boolean
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionEmail {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionProvider {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionRole {
+  key: ID
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserConnectionUsername {
+  key: String
+  connection: UsersPermissionsUserConnection
+}
+
+type UsersPermissionsUserGroupBy {
+  _id: [UsersPermissionsUserConnection_id]
+  username: [UsersPermissionsUserConnectionUsername]
+  email: [UsersPermissionsUserConnectionEmail]
+  provider: [UsersPermissionsUserConnectionProvider]
+  confirmed: [UsersPermissionsUserConnectionConfirmed]
+  blocked: [UsersPermissionsUserConnectionBlocked]
+  role: [UsersPermissionsUserConnectionRole]
+}
+
+"""Videos"""
+type Videos {
+  _id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String!
+  lead: String
+  status: Int
+  publishAt: DateTime
+  imdb: Float
+  dao_dien: String
+  ngay_phat_hanh: DateTime
+  ngay_ra_rap: DateTime
+  thoi_luong: Int
+  chat_luong: String
+  do_phan_giai: String
+  ngon_ngu: String
+  cty_sx: String
+  total_view: Int
+  rating: Float
+  trailer_link: String
+  tags: JSON
+  total_comment: Int
+  name2: String
+  hang_sx: String
+  content: String
+  images(sort: String, limit: Int, start: Int, where: JSON): [UploadFile]
+  categories(sort: String, limit: Int, start: Int, where: JSON): [Categories]
+  actors(sort: String, limit: Int, start: Int, where: JSON): [Actor]
+  countries(sort: String, limit: Int, start: Int, where: JSON): [Countries]
+  formalities(sort: String, limit: Int, start: Int, where: JSON): [Formality]
+}
+
+type VideosAggregator {
+  count: Int
+  sum: VideosAggregatorSum
+  avg: VideosAggregatorAvg
+  min: VideosAggregatorMin
+  max: VideosAggregatorMax
+}
+
+type VideosAggregatorAvg {
+  status: Float
+  imdb: Float
+  thoi_luong: Float
+  total_view: Float
+  rating: Float
+  total_comment: Float
+}
+
+type VideosAggregatorMax {
+  status: Float
+  imdb: Float
+  thoi_luong: Float
+  total_view: Float
+  rating: Float
+  total_comment: Float
+}
+
+type VideosAggregatorMin {
+  status: Float
+  imdb: Float
+  thoi_luong: Float
+  total_view: Float
+  rating: Float
+  total_comment: Float
+}
+
+type VideosAggregatorSum {
+  status: Float
+  imdb: Float
+  thoi_luong: Float
+  total_view: Float
+  rating: Float
+  total_comment: Float
+}
+
+type VideosConnection {
+  values: [Videos]
+  groupBy: VideosGroupBy
+  aggregate: VideosAggregator
+}
+
+type VideosConnection_id {
+  key: ID
+  connection: VideosConnection
+}
+
+type VideosConnectionChat_luong {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionContent {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionCreatedAt {
+  key: DateTime
+  connection: VideosConnection
+}
+
+type VideosConnectionCty_sx {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionDao_dien {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionDo_phan_giai {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionHang_sx {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionImdb {
+  key: Float
+  connection: VideosConnection
+}
+
+type VideosConnectionLead {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionName {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionName2 {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionNgay_phat_hanh {
+  key: DateTime
+  connection: VideosConnection
+}
+
+type VideosConnectionNgay_ra_rap {
+  key: DateTime
+  connection: VideosConnection
+}
+
+type VideosConnectionNgon_ngu {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionPublishAt {
+  key: DateTime
+  connection: VideosConnection
+}
+
+type VideosConnectionRating {
+  key: Float
+  connection: VideosConnection
+}
+
+type VideosConnectionStatus {
+  key: Int
+  connection: VideosConnection
+}
+
+type VideosConnectionTags {
+  key: JSON
+  connection: VideosConnection
+}
+
+type VideosConnectionThoi_luong {
+  key: Int
+  connection: VideosConnection
+}
+
+type VideosConnectionTotal_comment {
+  key: Int
+  connection: VideosConnection
+}
+
+type VideosConnectionTotal_view {
+  key: Int
+  connection: VideosConnection
+}
+
+type VideosConnectionTrailer_link {
+  key: String
+  connection: VideosConnection
+}
+
+type VideosConnectionUpdatedAt {
+  key: DateTime
+  connection: VideosConnection
+}
+
+type VideosGroupBy {
+  _id: [VideosConnection_id]
+  createdAt: [VideosConnectionCreatedAt]
+  updatedAt: [VideosConnectionUpdatedAt]
+  name: [VideosConnectionName]
+  lead: [VideosConnectionLead]
+  status: [VideosConnectionStatus]
+  publishAt: [VideosConnectionPublishAt]
+  imdb: [VideosConnectionImdb]
+  dao_dien: [VideosConnectionDao_dien]
+  ngay_phat_hanh: [VideosConnectionNgay_phat_hanh]
+  ngay_ra_rap: [VideosConnectionNgay_ra_rap]
+  thoi_luong: [VideosConnectionThoi_luong]
+  chat_luong: [VideosConnectionChat_luong]
+  do_phan_giai: [VideosConnectionDo_phan_giai]
+  ngon_ngu: [VideosConnectionNgon_ngu]
+  cty_sx: [VideosConnectionCty_sx]
+  total_view: [VideosConnectionTotal_view]
+  rating: [VideosConnectionRating]
+  trailer_link: [VideosConnectionTrailer_link]
+  tags: [VideosConnectionTags]
+  total_comment: [VideosConnectionTotal_comment]
+  name2: [VideosConnectionName2]
+  hang_sx: [VideosConnectionHang_sx]
+  content: [VideosConnectionContent]
+}
+
+input VideosInput {
+  name: String!
+  lead: String
+  images: [ID]
+  status: Int
+  publishAt: DateTime
+  imdb: Float
+  dao_dien: String
+  ngay_phat_hanh: DateTime
+  ngay_ra_rap: DateTime
+  thoi_luong: Int
+  chat_luong: String
+  do_phan_giai: String
+  ngon_ngu: String
+  cty_sx: String
+  total_view: Int
+  rating: Float
+  trailer_link: String
+  tags: JSON
+  total_comment: Int
+  name2: String
+  hang_sx: String
+  categories: [ID]
+  actors: [ID]
+  countries: [ID]
+  formalities: [ID]
+  content: String
+}
