@@ -18,11 +18,6 @@
       "default": "",
       "type": "string"
     },
-    "links": {
-      "default": "",
-      "type": "json",
-      "required": true
-    },
     "images": {
       "collection": "file",
       "via": "related",
@@ -33,20 +28,12 @@
       "default": 0,
       "type": "integer"
     },
-    "createdAt": {
-      "default": "",
-      "type": "date"
-    },
-    "updatedAt": {
-      "default": "",
-      "type": "date"
-    },
     "publishAt": {
       "default": "",
       "type": "date"
     },
-    "IMDb": {
-      "default": 5,
+    "imdb": {
+      "default": 1,
       "type": "decimal"
     },
     "dao_dien": {
@@ -98,7 +85,7 @@
       "type": "json"
     },
     "total_comment": {
-      "default": "",
+      "default": 0,
       "type": "integer"
     },
     "name2": {
@@ -132,6 +119,10 @@
     "content": {
       "default": "",
       "type": "text"
+    },
+    "medias": {
+      "collection": "medias",
+      "via": "videos"
     }
   }
 }

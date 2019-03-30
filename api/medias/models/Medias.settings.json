@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "medias",
+  "info": {
+    "name": "medias",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "source": {
+      "default": "",
+      "type": "string"
+    },
+    "videos": {
+      "model": "videos",
+      "via": "medias"
+    }
+  }
+}
